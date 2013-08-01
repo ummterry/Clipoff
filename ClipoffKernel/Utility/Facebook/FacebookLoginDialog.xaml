@@ -1,0 +1,8 @@
+﻿<Window x:Class="Clipoff.Utility.FacebookLoginDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FacebookLoginDialog" Height="320" Width="550" Loaded="FacebookLoginDialog_Loaded" Icon="/ClipoffKernel;component/Images/1.ico">
+    <Grid>
+        <WebBrowser x:Name="webBrowser" Navigated="webBrowser_Navigated"></WebBrowser>
+    </Grid>
+</Window>
